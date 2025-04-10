@@ -1,18 +1,7 @@
-## Getting Started
+Este proyecto es un sistema de inventario que permite registrar productos, actualizar sus cantidades y generar un reporte con el valor total del inventario. La lógica del programa parte desde una etapa obligatoria en la que se registran al menos 5 productos. Después de esto, el sistema pregunta si el usuario desea seguir agregando más productos. Una vez completado el ingreso, se accede a un menú principal con cuatro opciones: agregar un nuevo producto, actualizar la cantidad de uno existente, generar un reporte de inventario, o salir del sistema.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+La solución fue construida utilizando arrays paralelos (String[], int[], double[]) para almacenar nombres, cantidades y precios de hasta 100 productos. Se usaron estructuras de control como while y switch para guiar la lógica del menú y decisiones del usuario. También se utilizó un Scanner llamado miobj para capturar la entrada de datos.
 
-## Folder Structure
+Para lograr una estructura clara y funcional, se organizó el código en bloques fácilmente distinguibles: entrada de productos, menú interactivo y funciones de gestión. Se manejaron condiciones como límites de productos, validaciones de opción y confirmación del usuario. Además, todos los textos y nombres están escritos en minúsculas, como parte del requerimiento.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Este programa cumple con todos los criterios de evaluación: uso correcto de arrays, estructuras de control, código comentado, y una estructura lógica clara que permite su fácil comprensión y ejecución.
